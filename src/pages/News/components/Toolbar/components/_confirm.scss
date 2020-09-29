@@ -1,0 +1,26 @@
+.confirmWrap {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.confirmWindow {
+  z-index: 2;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid 1px #343a40;
+  border-radius: 4px;
+}
+
+.confirmWindow p{
+  margin-top: 1rem;
+}
+.confirm-btn{
+  margin: 1rem;
+}
